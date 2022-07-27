@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "Roboto", "Arial","sans-serif";
+}
+#header{
+ background: #f2f2f2;
+ height: 70px;
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ z-index: 1;
+ display: flex;
+ justify-content: space-between;
+}
+#header .img-banner{
+    padding-top: 14px;
+    padding-left: 10px;
+}
+#header .icon_close {
+    margin: 15px 10px 0 0;
+    padding: 4px;
+    font-weight: 24px;
+}
+.responsive_nicepage{
+    display: flex;
+    justify-content: center;
+}
+.rsn_item{
+    padding: 4px;
+    margin-top: 15px;
+    font-size: 32px 32px;
+}
+.rsn_item :hover{
+    background: #C9E4F9;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#header .icon_close :hover{
+    background: #e2f0fc;
+    text-decoration: none;
+    cursor: pointer;
+}
+#content{
+    margin: 70px 0px;
+    border: none;
+}
+.content_title{
+    text-align: center;
+    padding-top: 40px;
+}
+.title h2{
+    font-size: 30px;
+    margin: 20px 54px 0;
+}
+.container{
+    display: flex;
+    margin: 38px 0 0;
+    padding: 0px 104.5px;
+    gap: 0 20px;
+}
+.container_title{
+    font-size: 24px;
+    color: #4d4d4d;
+
+}
+.container_img{
+    height: 247px;
+    width: 100%;
+    margin: 18px 0 0;
+}
+.container_paragraph { 
+    color: #808080;
+    margin: 18px 0 0;
+    line-height: 1.6;
+    font-size: 16px;
+}
+.nicepagelink{
+    margin: 30px 583px 60px;
+    padding: 22px 68px 22px 67px;
+    text-align: center;
+    /* letter-spacing: 1px; */
+    font-size: 1.3rem;
+    line-height: 1.4;
+    font-family: Merriweather,serif;
+    border: 1px solid #4d4d4d;
+    cursor: pointer;
+    text-decoration: none;
+  
+}
+.nicepagelink :hover{
+    border: 1px solid #111111;
+    
+}
+
+
